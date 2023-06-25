@@ -16,25 +16,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.934" />
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="202dp"
-        android:layout_height="43dp"
+        android:layout_width="198dp"
+        android:layout_height="57dp"
 
+        android:layout_marginEnd="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/saldo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.566" />
 
     <EditText
         android:id="@+id/saldo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
+        android:layout_width="213dp"
+        android:layout_height="58dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -44,9 +46,10 @@
         android:id="@+id/convert"
         android:layout_width="114dp"
         android:layout_height="61dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="100dp"
         android:text="Convert"
         app:layout_constraintEnd_toStartOf="@+id/reset"
+        app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/saldo" />
 
@@ -54,8 +57,8 @@
         android:id="@+id/reset"
         android:layout_width="115dp"
         android:layout_height="59dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="64dp"
         android:text="Reset"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/spinner" />
