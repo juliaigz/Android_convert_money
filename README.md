@@ -1,6 +1,9 @@
 # Android_convert_money
 ### This is a project in Android studio using kotlin : using binding and the spinner
 
+![image](https://github.com/juliaigz/Android_convert_money/assets/40221707/4bbd8fd4-a60d-4acf-803a-b1a888f27141)
+
+
 ´´´bash
 class MainActivity : AppCompatActivity() {
     lateinit var convert:Button
